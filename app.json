@@ -1,0 +1,67 @@
+{
+      "name": "İtiraf_Botu",
+      "description": "Telegram Destekli eglence amaçlı yazılmış botlar",
+      "keywords": [
+         "telegram",
+         "itiraf",
+         "group",
+         "Mehmetbaba",
+         "Sohbetdestek"
+      ],   
+   "repository": "https://github.com/Mehmetbaba55/Confessionbot",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini buraya yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": ""
+      },    
+      "ADMIN_QRUP": {
+         "description": "İtirafları onaylamak için bir ekip oluşturun. oluşturduğunuz botu o gruba (id) ve yöneticiye atın ve buraya yazın",
+         "value": ""
+      },      
+      "ETIRAF_QRUP": {
+         "description": "Onayınızı paylaşmak için kanal/grup id yazın",
+         "value": ""
+      },
+      "LOG_QRUP": {
+         "description": "Botunuzun bu gruba giriş çıkış bilgilerini ve özel gizli bilgileri göndereceği yeri belirleyin",
+         "value": ""
+      },
+      "BOT_AD": {
+         "description": "Botun usernamesini bura yazın @ işarəsi ilə",
+         "value": ""
+      },
+      "kanal": {
+         "description": "İtiraflar paylaşılacak kanal/qrup linkini bura yazın @ işareti olmadan yazınız",
+         "value": ""
+      },
+      "startmesaj": {
+         "description": "Önyükleme başladığında ileti mesajı (start)",
+         "value": "**Selam hoşgeldin** __Kimselere söyleyemediğin İtirafları bana ilet yayınlayım__ 🤭"
+      },
+      "qrupstart": {
+         "description": "Bir gruba katılmışsa, gruptaki bot iletisi başlatıldıysa",
+         "value": "✅ **Ben Aktifim!** 💌 **İtiraflarını yazmak için botun başlat kısmına bas.**"
+      },
+      "etirafmsg": {
+         "description": "Bot kabul edildiğinde sorduğu soru",
+         "value": "**İtiraflarını nasıl paylaşayım?** 🤔"
+      }, 
+      "etirafyaz": {
+         "description": "İtiraf etmek isteyen kullanıcıya mesaj",
+         "value": "**Merhaba bir itiraf yaz. Daha sonra ben onun açık ve ya anonim olacağını ileteceğim Adminlerime yayınlanması için** 😍"
+      },
+      "gonderildi": {
+         "description": "İtiraf ettikten sonra yazılmış bir mesaj (öz kanalınızı yazın)",
+         "value": "✅ **İtirafınız gönderildi. Adminlər tarafından onaylandıktan sonra @vaypezevenk kanalında paylaşılacaktır.**"
+      }
+      
+   }
+}
